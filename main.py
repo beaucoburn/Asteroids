@@ -14,7 +14,7 @@ def main():
         screen.fill((0, 0, 0))
         pygame.display.flip()
 
-        dt = time.tick(60) / 1000.0
+        dt = clock.tick(60) / 1000.0
     print("Starting Asteroids!")
     print(f"Screen width: {SCREEN_WIDTH}")
     print(f"Screen height: {SCREEN_HEIGHT}")
