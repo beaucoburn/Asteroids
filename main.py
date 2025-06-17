@@ -22,7 +22,7 @@ def main():
             if event.type == pygame.QUIT:
                 return
 
-        updateable.update(dt)
+        updatable.update(dt)
 
         screen.fill("black")
         
