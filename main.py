@@ -12,7 +12,7 @@ def main():
     drawable = pygame.sprite.Group()
 
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
-    updateable.add(player)
+    updatable.add(player)
     drawable.add(player)
 
     dt = 0
