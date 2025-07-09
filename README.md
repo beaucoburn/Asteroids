@@ -1,4 +1,4 @@
-#Asteroids
+# Asteroids
 
 A simple Asteroids clone written with Python and PyGame.
 
